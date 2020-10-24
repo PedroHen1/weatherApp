@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title"><h1>ADD A NEW LOCAL</h1></div>
+    <div id="searchContainer">
+        <input type="text" placeholder="Enter The City Name" class="searchControl" id="searchInput">
+        <button class="searchControl" id="searchBtn">Search</button>
+    </div>
+
+    <div id="weatherContainer">
+        <div id="weatherDiscription">
+            <h1 id="cityHeader"></h1>
+            <div id="weatherMain">
+                <div id="temperature"></div>
+                <div id="weatherDescriptionHeader"></div>
+            </div>
+            <div id="windSpeed" class="bottomDetails"></div>
+            <div id="humidity" class="bottomDetails"></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
