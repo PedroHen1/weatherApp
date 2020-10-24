@@ -8,3 +8,5 @@
 Weather App to practice my skills with vanilla Js
 ## API used
 https://openweathermap.org/
+## here is the URL:
+https://w3ather.netlify.app/
